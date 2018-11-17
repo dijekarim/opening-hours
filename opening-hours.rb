@@ -86,7 +86,7 @@ class Restaurant < Object
             output.push("%{days}: %{open_hours}" % { days: days, open_hours: grouped_opening_hour[:open_hours] })
         end
 
-        print output.join(', ')
+        output.join(', ')
     end
 end
 

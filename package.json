@@ -1,6 +1,6 @@
 {
   "name": "opening-hours",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "opening hours wording assessment",
   "main": "index.js",
   "scripts": {

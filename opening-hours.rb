@@ -52,8 +52,10 @@ class Restaurant < Object
                 grouped_opening_hour[:days][1..grouped_opening_hour[:days].length-1].each do |day_idx|
                     if day_idx-1 != current_day_idx
                         day_grouping.push( [day_idx] )
+
                     else
                         day_grouping[-1].push( day_idx )
+                        
                     end
 
                     current_day_idx = day_idx
